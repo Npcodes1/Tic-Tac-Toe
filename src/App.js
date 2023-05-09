@@ -1,12 +1,13 @@
 import { useState } from "react";
+import Square from "./components/Square.js";
 
-function Square({ value, onSquareClick }) {
-  return (
-    <button className="square" onClick={onSquareClick}>
-      {value}
-    </button>
-  );
-}
+// function Square({ value, onSquareClick }) {
+//   return (
+//     <button className="square" onClick={onSquareClick}>
+//       {value}
+//     </button>
+//   );
+// }
 
 function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
