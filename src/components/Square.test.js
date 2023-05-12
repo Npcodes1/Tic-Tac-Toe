@@ -8,14 +8,13 @@ describe("click on squares", () => {
         render(<Square />)
 
         // Act- where you actually execute the code you're testing.
-        let square = screen.getByRole("button", { hidden: true });
+        let square = screen.findByRole("button", { name: "square" });
         fireEvent.click(square);
     
         // Update our square variable with the new state after clicking.
-        square = screen.getByRole("button", { hidden: false });
+        square = screen.findByRole("button", { name: "square" });
 
         //Assert- to verify the code being tested behaves as expected. 
         expect(square).toHaveTextContent("X");
-        expect(square).toHaveTextContent("O");
     });
 })
