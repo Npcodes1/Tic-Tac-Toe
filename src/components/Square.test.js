@@ -17,7 +17,7 @@ describe("click on squares", () => {
         square = screen.findByRole("button", { name: "square" });
 
         //Assert- to verify the code being tested behaves as expected. 
-        waitFor(() => expect("square").toHaveTextContent("X"));
+        waitFor(() => expect(square).toHaveTextContent("X"));
     });
 
     it("should show an O upon clicking the square", () => {
@@ -31,6 +31,6 @@ describe("click on squares", () => {
         square = screen.findByRole("button", { name: "square" });
 
         //Assert- to verify the code being tested behaves as expected. 
-        waitFor(() => expect("square").toHaveTextContent("O"));
+        waitFor(() => expect(square).toHaveTextContent("O"));
     });
 })
