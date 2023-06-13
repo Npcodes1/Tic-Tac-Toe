@@ -1,6 +1,6 @@
-import { render, screen } from "@testing-library/react"
-import fireEvent from "@testing-library/user-event"
-import Square from "./Square.js"
+import { render, screen } from "@testing-library/react";
+import fireEvent from "@testing-library/user-event";
+import Square from "./Square.js";
 import "@testing-library/jest-dom/extend-expect";
 import { waitFor } from "@testing-library/react";
 

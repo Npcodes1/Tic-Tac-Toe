@@ -1,4 +1,5 @@
 import "./Square.css";
+import "./Board.js";
 
 const Square = ({value, onSquareClick}) => {
     return (
