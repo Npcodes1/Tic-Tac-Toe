@@ -8,12 +8,16 @@
   },
   "main": "/index.js",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1"
   },
   "name": "ljg0t8",
-  "description": null,
+  "description": "null",
   "version": "0.0.0",
+  "homepage": "https://npcodes1.github.io/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
