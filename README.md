@@ -1,4 +1,4 @@
-This Tic-Tac-Toe Game was my first project in using React. I learned from a tutorial that was on the React website. It's been really helpful in learning about components and I'm slowly making my way into understanding unit testing.
+This Tic-Tac-Toe Game was my first project in using React. I learned from a tutorial that was on the React website. This classic game is for two players and next to the board is a move history to show what was the last move that was performed. It's been really helpful in learning about components and I'm slowly making my way into understanding unit testing.
 
 ##
 
